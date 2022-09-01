@@ -24,13 +24,10 @@
   },
   "devDependencies": {},
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
   "keywords": [],
   "author": "AlbertSandu",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/londonappbrewery/Authentication-Secrets.git"
-  }
+  "license": "ISC"
 }
