@@ -201,11 +201,8 @@ app.post("/submit", function (req, res) {
   })
 })
 
-let port = process.env.PORT;
-if (port == null || port == "") {
-  port = 3000;
-}
- 
-app.listen(port, function() {
-  console.log("Server started succesfully");
-});    
+const port = process.env.PORT || 3000;
+
+app.listen(port, function () {
+  console.log("Server started successfully");
+});
